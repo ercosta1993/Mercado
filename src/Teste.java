@@ -25,8 +25,8 @@ public class Teste {
         
         System.out.println(sacola);
         
-        System.out.println("Busquei o produto 3 = " + venda.buscaProdutoPorID(3, sacola));
+        System.out.println("Busquei o produto 3 = " + venda.buscarProdutoPorID(3, sacola));
         
-        System.out.println("Busquei o preço unitario do produto 5 = " + venda.buscaProdutoPorID(5, sacola).getValor_unitario());
+        System.out.println("Busquei o preço unitario do produto 5 = " + venda.buscarProdutoPorID(5, sacola).getValor_unitario());
     }
 }
